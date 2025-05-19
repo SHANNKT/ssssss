@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="color/color1.css">
+    <link rel="stylesheet" href="style-switcher.css">
+    <script src="https://kit.fontawesome.com/fe9d55eaf6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="color/color1.css" class="alternate-style" title="color-1" 
+    disabled>
+    <link rel="stylesheet" href="color/color2.css" class="alternate-style" title="color-2"
+    disabled>
+    <link rel="stylesheet" href="color/color3.css" class="alternate-style" title="color-3" 
+    disabled>
+    <link rel="stylesheet" href="color/color4.css" class="alternate-style" title="color-4"
+    disabled>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <img src="image/k.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>IT STUDENT</p>
+                <h1>Hi, I'm <span>Kate</span><br>Labiano From GRC</h1>
+            </div>
+        </div>
+    </div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/cutepia.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>I'm passionate about photo and video editing. I enjoy bringing stories to life through visuals and love working behind the scenes to create something impactful. I'm a team player, easy to get along with, and I adapt quickly 
+                    to any work environment. Whether I'm editing content or collaborating with others, I always give my best.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links"  onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>College <br>2024 – Present</span><br>BACHELOR OF SCIENCE INFORMATION TECHNOLOGY</li>
+                        <li><span>Senior High School <br>2023 – 2024</span><br>Eulogio Rodriguez Integrated School</li>
+                        <li><span>Junior High School <br>2017- 2023</span><br>Eulogio Rodriguez Integrated School</li>
+                        <li><span>Elementary School <br>2011- 2017</span><br>Eulogio Rodriguez Integrated School</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Creative & Technical Skills</span><br>Photo Editing Adobe Photoshop, Lightroom,canva 
+                            Video Editing in CapCut Basic Motion Graphics Adobe After Effects, Canva Audio Editing & Syncing</li>
+                        <li><span>Hard Skills</span><br>Understanding of aspect ratios and social media content dimensions
+                            Basic camera handling and setup File management and digital organization</li>
+                        <li><span>Soft Skills</span><br>Excellent interpersonal skills Highly adaptable and quick learner
+                             Team player with a collaborative mindset</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>September 19 2023 – December 4 2023</span><br>Food Panda</li>
+                        <li><span>February 18 2022 – January 24 2025</span><br>Manila Hotel</li>
+                        <li><span>June 15 2024 – July 1 2024</span><br>Housekeeper</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h2>Editing</h2>
+                <p>I offer a range of high-quality photo and video editing services tailored to your needs. 
+                    Whether it’s for personal use, social media, business, or events  I’m here to help bring your content to life.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video</h2>
+                <p>I offer professional video editing services for content creators, small businesses, events, and personal projects. Whether you're 
+                    building your brand online or preserving memories, I can help turn raw footage into engaging, polished content.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+             <div>
+                <i class="fa-solid fa-pen-nib"></i>
+            <h2>Web Designer</h2>
+            <p>I create modern, responsive, and user-friendly 
+                websites tailored to your needs — whether it's for a personal brand, small business, blog, or online store.</p>
+            <a href="#">Learn More</a>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work1.jpg">
+                <div class="layer">
+                    <h3>Product Manipulation</h3>
+                    <p>Product Manipulation in the context of design and editing usually refers to digitally altering or enhancing
+                         product images to make them more appealing, accurate, or suitable for advertising, e-commerce, or marketing.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+        </div>
+        <div class="work">
+            <img src="image/work4.jpg">
+            <div class="layer">
+                <h3>Erasing Background</h3>
+                <p>Background removal is the process of erasing or replacing the background of an image to make the subject usually a product or person
+                    stand out clearly. It’s commonly used in product photography, profile pictures, and graphic design.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+    </div>
+    <div class="work">
+        <img src="image/work3.jpg">
+        <div class="layer">
+            <h3>Changing Color</h3>
+            <p>Changing Color is a popular photo editing technique where the color of an object, 
+                product, or background in an image is modified to achieve a specific look or match a desired aesthetic.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+</div>
+<div class="work">
+    <img src="image/work2.jpg">
+    <div class="layer">
+        <h3>Retro 3D Movie Effect</h3>
+        <p>
+            The Retro 3D Movie Effect is a fun, nostalgic visual style that makes an image or video look like
+            it’s from a vintage 3D movie or VHS tape, often with bright, saturated colors, depth, and a somewhat glitchy or pixelated aesthetic. 
+            It's perfect for making content feel like a throwback to old-school cinema or giving it a unique, creative flair.
+        </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>katelabiano18@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0901293911</p>
+                
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/labiano.kate.shannon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                    <a href="" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <buttom type="submit" class="btn btn2">Submit</buttom>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>CopyRight @ Shann. This portfolio is protected <i class="fa-solid fa-face-smile-wink"></i>
+            by copyright law and may not be used without permission.</p>
+    </div>
+</div>
+
+<div class="style-switcher">
+    <div class="switcher-toogler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+    </div> 
+    <div class="day-night s-icon">
+        <i class="fas fa-moon"></i>
+    </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const styleSwitcherToggle = document.querySelector(".switcher-toogler");
+    styleSwitcherToggle.addEventListener("click", () => {
+        document.querySelector(".style-switcher").classList.toggle("open");
+    })
+
+    window.addEventListener("scroll", () => {
+        if(document.querySelector(".style-switcher").classList.contains("open"))
+
+        {
+            document.querySelector(".style-switcher").classList.remove("open");
+        }
+    })
+
+    const alternateStyles = document.querySelectorAll(".alternate-style")
+    function setActiveStyle(color)
+    {
+        alternateStyles.forEach((style) => {
+            if(color === style.getAttribute("title"))
+        {
+            style.removeAttribute("disabled");
+        }
+        else
+        {
+            style.setAttribute("disabled", "true");
+        }
+        })
+    }
+
+</script>
+
+</body>
+</html>
